@@ -1,4 +1,4 @@
 FROM nginx
 MAINTAINER raju
-WORKDIR /var/share/nginx/html/
+WORKDIR /usr/share/nginx/html/
 COPY index.html .
